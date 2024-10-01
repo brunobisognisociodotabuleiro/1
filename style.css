@@ -1,0 +1,28 @@
+body
+{
+  background-color: #0f0D13 ;
+}
+
+#app {
+  display: grid;
+  grid-template-areas: 
+  'A B'
+  'A C'; 
+
+  gap: 32px
+
+}
+
+#player-1{
+  grid-area: A;
+}
+
+
+#player-2{
+  grid-area: B;
+}
+
+
+#player-3{
+  grid-area: C;
+}
